@@ -21,11 +21,11 @@
 @-moz-document url(about:home), url(about:newtab) {
   .search-wrapper .logo-and-wordmark .logo {
     display: inline-block !important;
-    height: 260px !important;
-    width: 260px !important;
+    height: 134px !important;
+    width: 160px !important;
     background: url(img/lain.png) !important;
     background-size: auto !important;
-    background-size: 310px !important;
+    background-size: 160px !important;
     background-repeat: no-repeat;
   }
 }
@@ -37,7 +37,7 @@
     background-size: 134px !important;
     display: flex !important;
     flex-direction: column;
-    height: 219px !important;
+    height: 124px !important;
     width: 134px !important;
   }
 }
