@@ -1,69 +1,71 @@
 @-moz-document url(about:home), url(about:newtab), url(about:privatebrowsing) {
-    .click-target-container *, .top-sites-list * {
-        color: #fff !important ;
-        text-shadow: 2px 2px 2px #222 !important ;
-    }
+  .click-target-container *,
+  .top-sites-list * {
+    color: #fff !important ;
+    text-shadow: 2px 2px 2px #222 !important ;
+  }
 
-    body::before {
-        content: "" ;
-        z-index: -1 ;
-        position: fixed ;
-        top: 0 ;
-        left: 0 ;
-        background: url(img/wired.jpg) center ;
-        background-size: cover ;
-        width: 100vw ;
-        height: 100vh ;
-    }
-    
+  body::before {
+    content: "";
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url(img/wired.jpg) center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+  }
 }
 
 @-moz-document url(about:home), url(about:newtab) {
-    .search-wrapper .logo-and-wordmark .logo{
-  display: inline-block !important;
-  height: 160px !important;
-  width: 160px !important;
-  background: url(img/lain.png) !important;
+  .search-wrapper .logo-and-wordmark .logo {
+    display: inline-block !important;
+    height: 260px !important;
+    width: 260px !important;
+    background: url(img/lain.png) !important;
     background-size: auto !important;
-  background-size: 160px !important;
-    }
+    background-size: 310px !important;
+    background-repeat: no-repeat;
+  }
 }
 
 @-moz-document url(about:home), url(about:newtab) {
-    .search-wrapper .logo-and-wordmark .wordmark{
-        background: url(img/thewired.png) !important;
+  .search-wrapper .logo-and-wordmark .wordmark {
+    background: url(img/thewired.png) !important;
     background-size: auto !important;
-  background-size: 134px !important;
-  display: inline-block !important;
-  height: 134px !important;
-  width: 134px !important;
-    }
-}
-    
-@-moz-document url(about:home), url(about:newtab) {
-    .top-site-outer .tile {
-        background: #dbdbdb4e !important;
-        border: 4px solid #dbdbdb !important;
-    } 
+    background-size: 134px !important;
+    display: flex !important;
+    flex-direction: column;
+    height: 219px !important;
+    width: 134px !important;
+  }
 }
 
 @-moz-document url(about:home), url(about:newtab) {
-    .top-site-outer .top-site-icon{
-        background-color: transparent !important;
-    }
+  .top-site-outer .tile {
+    background: #dbdbdb4e !important;
+    border: 4px solid #dbdbdb !important;
+  }
 }
 
 @-moz-document url(about:home), url(about:newtab) {
-    .search-wrapper .search-handoff-button, .search-wrapper input {
-        background: #dbdbdb4e var(--newtab-search-icon) 16px center no-repeat !important;
-        background-size: 24px;
-        padding-inline-start: 52px;
-        padding-inline-end: 10px;
-        padding-block: 0;
-        width: 100%;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-        border: 4px solid #dbdbdb !important;
-        border-radius: 8px;
+  .top-site-outer .top-site-icon {
+    background-color: transparent !important;
+  }
+}
 
-    }
+@-moz-document url(about:home), url(about:newtab) {
+  .search-wrapper .search-handoff-button,
+  .search-wrapper input {
+    background: #dbdbdb4e var(--newtab-search-icon) 16px center no-repeat !important;
+    background-size: 24px;
+    padding-inline-start: 52px;
+    padding-inline-end: 10px;
+    padding-block: 0;
+    width: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    border: 4px solid #dbdbdb !important;
+    border-radius: 8px;
+  }
 }
